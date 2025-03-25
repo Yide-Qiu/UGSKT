@@ -21,7 +21,15 @@ ogb                           1.3.1
 ```
 
 ## Datasets:
-We constructed motif scores and generated structured tokens for 14 datasets: **Pubmed**,**Citeseer**,**Cora**,**ogbn-products**,**ogbn-arxiv**,**ogbn-proteins**,**ogbn-mag**,**ogbl-ppa**,**ogbl-ddi**,**ogbl-citation2**,**ogbg-ppa**,**ogbg-molpcba**,**ogbg-code2**,**UniKG**. Please click on the following link to download all datasets:
+We have constructed motif scores and generated structured tokens for 14 datasets: 
+```
+**Pubmed**,**Citeseer**,**Cora**
+**ogbn-products**,**ogbn-arxiv**,**ogbn-proteins**,**ogbn-mag**
+**ogbl-ppa**,**ogbl-ddi**,**ogbl-citation2**
+**ogbg-ppa**,**ogbg-molpcba**,**ogbg-code2**
+**UniKG**
+```
+Please click on the following link to download all datasets:
 ```
 https://pan.quark.cn/s/a68121ffd314
 ```
