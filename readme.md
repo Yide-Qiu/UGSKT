@@ -102,12 +102,21 @@ https://pan.quark.cn/s/a68121ffd314
 
 # 🏆 Benchmark Performance
 
-| Dataset         | Task Type            | Base Model | Frozen Transfer | Full Fine-tune |
-|-----------------|----------------------|------------|------------------|----------------|
-| ogbn-arxiv      | Node Classification | 71.3%      | 73.8% (+3.5%)    | 75.1% (+5.2%)  |
-| ogbl-ppa        | Link Prediction     | 0.776      | 0.891 (+14.8%)   | 0.917 (+18.2%) |
-| ogbg-molpcba    | Graph Classification | 0.274 AP   | 0.281 AP (+2.5%) | 0.289 AP (+5.4%) |
-| PascalVOC-SP    | Node Classification | 0.287 F1   | 0.368 F1 (+28.2%)| 0.420 F1 (+46.3%) |
+| Dataset          | Task Type              | Method | Metric    | Base     | Frozen (Δ)               | Fine-tuned (Δ)            | Ratio (%) |
+|------------------|------------------------|--------|-----------|----------|--------------------------|---------------------------|-----------|
+| ogbn-arxiv       | Node Classification    | GCN    | Accuracy  | 0.5238   | 0.5633 (+0.0395↑)        | **0.5886 (+0.0648↑)**     | 12.37     |
+| ogbn-products    | Node Classification    | SIGN   | Accuracy  | 0.7423   | 0.7456 (+0.0033↑)        | **0.7477 (+0.0054↑)**     | 0.73      |
+| ogbn-mag         | Node Classification    | SAGE   | Accuracy  | 0.3498   | **0.3673 (+0.0175↑)**    | 0.3544 (+0.0046↑)         | 5.01      |
+| Cora             | Node Classification    | GCN    | Accuracy  | 0.8110   | **0.8167 (+0.0057↑)**    | 0.8117 (+0.0007↑)         | 0.70      |
+| Pubmed           | Node Classification    | GCN    | Accuracy  | 0.7880   | 0.8071 (+0.0191↑)        | **0.8173 (+0.0293↑)**     | 3.72      |
+| Citeseer         | Node Classification    | GCN    | Accuracy  | 0.6820   | 0.6873 (+0.0053↑)        | **0.6981 (+0.0161↑)**     | 2.38      |
+| ogbn-proteins    | Node Classification    | SAGE   | ROCAUC    | 0.7614   | **0.8175 (+0.0561↑)**    | 0.8076 (+0.0462↑)         | 7.37      |
+| ogbl-molhiv      | Link Prediction        | GIN    | ROCAUC    | 0.7761   | 0.7922 (+0.0161↑)        | **0.7950 (+0.0189↑)**     | 2.44      |
+| ogbl-ppa         | Link Prediction        | SAGE   | Hits@100  | 0.1519   | 0.1604 (+0.0085↑)        | **0.1732 (+0.0213↑)**     | 14.02     |
+| ogbl-ddi         | Link Prediction        | SAGE   | Hits@30   | 0.5271   | 0.5549 (+0.0278↑)        | **0.5601 (+0.0330↑)**     | 6.26      |
+| ogbg-citation2   | Graph Classification  | SAINT  | MRR       | 0.8001   | 0.8092 (+0.0091↑)        | **0.8154 (+0.0153↑)**     | 1.91      |
+| ogbg-code2       | Graph Classification  | GCN    | F1 Score  | 0.1515   | 0.1554 (+0.0039↑)        | **0.1601 (+0.0086↑)**     | 5.68      |
+| ogbg-molpcba     | Graph Classification  | GIN    | AP        | 0.2744   | 0.2809 (+0.0065↑)        | **0.2892 (+0.0148↑)**     | 5.39      |
 
 
 # 🧠 Framework Architecture
