@@ -12,12 +12,11 @@ Official implementation of **"One for All: A Motif-Driven Graph Dual-Serializati
 # 🔥 Key Features
 
 - ​​First universal framework​​ for cross-domain graph knowledge transfer using topological primitives
-​​- STA-18 Benchmark​​ - Largest aligned topological-textual graph dataset (18 diverse graphs)
-​​- 5.2% avg. performance gain​​ across 13 downstream tasks
-​​- Parameter-efficient transfer​​ with <9% additional parameters
-​​- Dual-stream ODE Network​​ with theoretical convergence guarantees
-
-
+- STA-18 Benchmark​​ - Largest aligned topological-textual graph dataset (18 diverse graphs)
+- 5.2% avg. performance gain​​ across 13 downstream tasks
+- Parameter-efficient transfer​​ with <9% additional parameters
+- Dual-stream ODE Network​​ with theoretical convergence guarantees
+  
 # 🚀 Quick Start
 
 ## Installation
