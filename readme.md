@@ -2,11 +2,12 @@
 
 # 🌐 Universal Graph Structural Knowledge Transfer (UGSKT)
 
-[!(https://img.shields.io/badge/PyTorch-1.9.0-%23EE4C2C.svg)]
-[!(https://img.shields.io/badge/OGB-1.3.1-%23007CBC.svg)]
-[!(https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.9.0-%23EE4C2C.svg)](https://pytorch.org/)
+[![OGB](https://img.shields.io/badge/OGB-1.3.1-%23007CBC.svg)](https://ogb.stanford.edu/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Official implementation of ​​"One for All: A Motif-Driven Graph Dual-Serialization Transfer Framework"​​ (Under Review) | |
+Official implementation of **"One for All: A Motif-Driven Graph Dual-Serialization Transfer Framework"**  
+📄 Paper (Coming Soon) | 💻 Interactive Demo (Coming Soon)
 
 # 🔥 Key Features
 
@@ -42,36 +43,59 @@ ogb                           1.3.1
 
 ```
 
-## Datasets:
-We have constructed motif scores and generated structured tokens for 14 datasets: 
-```
-Small-scale Graph Datasets: Pubmed, Citeseer, Cora.
-OGB Node-level Datasets: ogbn-products, ogbn-arxiv, ogbn-proteins, ogbn-mag
-OGB Edge-level Datasets: ogbl-ppa, ogbl-ddi, ogbl-citation2
-OGB Graph-level Datasets: ogbg-ppa, ogbg-molpcba, ogbg-code2
-The Largest Heterogeneous Graph Dataset: UniKG
-```
+## Datasets Overall
+We have constructed motif scores and generated structured tokens for **18 datasets**: 
+
+- **Small-scale Graph Datasets**:
+  - Pubmed
+  - Citeseer
+  - Cora
+- **OGB Node-level Datasets**:
+  - ogbn-products
+  - ogbn-arxiv
+  - ogbn-proteins
+  - ogbn-mag
+- **OGB Edge-level Datasets**:
+  - ogbl-ppa
+  - ogbl-ddi
+  - ogbl-citation2
+- **OGB Graph-level Datasets**:
+  - ogbg-ppa
+  - ogbg-molpcba
+  - ogbg-code2
+- **Graph Structure Learning Datasets**:
+  - Peptides
+  - PascalVOC-SP
+  - COCO-SP
+  - MalNet-Tiny
+- **The Largest Universal Heterogeneous Graph Dataset**:
+  - UniKG
+
+
+## Dataset Statistics
+
+
+
 
 ## Download Preprocessed Datasets
 ```
 https://pan.quark.cn/s/a68121ffd314
 ```
 
-# 📊 Benchmark Results
+# 🏆 Benchmark Performance
 
-Dataset	Task Type	Base Model	Ours (Frozen)	Ours (Fine-tuned)
-ogbn-arxiv	Node Classification	71.3%	​​73.8%​​	​​75.1%​​
-ogbl-ppa	Link Prediction	0.776	​​0.891​​	​​0.917​​
-ogbg-molpcba	Graph Classif.	0.274 AP	0.281 AP	​​0.289 AP​​
-PascalVOC-SP	Node Classif.	0.287 F1	​​0.368 F1​​	​​0.420 F1​
+| Dataset         | Task Type            | Base Model | Frozen Transfer | Full Fine-tune |
+|-----------------|----------------------|------------|------------------|----------------|
+| ogbn-arxiv      | Node Classification | 71.3%      | 73.8% (+3.5%)    | 75.1% (+5.2%)  |
+| ogbl-ppa        | Link Prediction     | 0.776      | 0.891 (+14.8%)   | 0.917 (+18.2%) |
+| ogbg-molpcba    | Graph Classification | 0.274 AP   | 0.281 AP (+2.5%) | 0.289 AP (+5.4%) |
+| PascalVOC-SP    | Node Classification | 0.287 F1   | 0.368 F1 (+28.2%)| 0.420 F1 (+46.3%) |
 
 
 # 🧠 Framework Architecture
 
 ## Dual-Serialization Process Pipeline
-
 ![Alt](./pipelinev4.png)
-
 
 ## Structural Annotation
 ![Alt](./annotationv2.png)
