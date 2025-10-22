@@ -6,8 +6,7 @@
 [![OGB](https://img.shields.io/badge/OGB-1.3.1-%23007CBC.svg)](https://ogb.stanford.edu/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Official implementation of **"One for All: A Motif-Driven Graph Dual-Serialization Transfer Framework"**  
-📄 Paper (Coming Soon) | 💻 Interactive Demo (Coming Soon)
+Official implementation of **"One for All: Universal Topological Primitive Transfer for Graph Structure Learning"**  
 
 # 🔥 Key Features
 
