@@ -7,7 +7,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Official implementation of **"One for All: Universal Topological Primitive Transfer for Graph Structure Learning"**  
-🎉 Congratulation! This work has been accepted to NIPS 2025.
+
+### 🎉 Congratulation! This work has been accepted to NIPS 2025.
 
 # 🔥 Key Features
 
@@ -130,5 +131,13 @@ https://pan.quark.cn/s/a68121ffd314
 ## Adaptive Transfer Mechanism
 ![Alt](./transfermodelv3.png)
 
-
+# 📜 Citation
+```
+@article{one2025,
+  title={One for All: Universal Topological Primitive Transfer for Graph Structure Learning},
+  author={Yide Qiu, Tong Zhang, Xing Cai, Hui Yan, Zhen Cui},
+  journal={Neural Information Processing Systems},
+  year={2025}
+}
+```
 
