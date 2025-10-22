@@ -1,12 +1,13 @@
 
 
-# 🌐 Universal Graph Structural Knowledge Transfer (UGSKT) (Has Been Accepted By NIPS 2025)
+# 🌐 Universal Graph Structural Knowledge Transfer (UGSKT)
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9.0-%23EE4C2C.svg)](https://pytorch.org/)
 [![OGB](https://img.shields.io/badge/OGB-1.3.1-%23007CBC.svg)](https://ogb.stanford.edu/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Official implementation of **"One for All: Universal Topological Primitive Transfer for Graph Structure Learning"**  
+🎉 Congratulation! This work has been accepted to NIPS 2025.
 
 # 🔥 Key Features
 
