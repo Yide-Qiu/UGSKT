@@ -1,6 +1,6 @@
 
 
-# 🌐 Universal Graph Structural Knowledge Transfer (UGSKT)
+# 🌐 Universal Graph Structural Knowledge Transfer (UGSKT) (Has Been Accepted By NIPS 2025)
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9.0-%23EE4C2C.svg)](https://pytorch.org/)
 [![OGB](https://img.shields.io/badge/OGB-1.3.1-%23007CBC.svg)](https://ogb.stanford.edu/)
@@ -129,14 +129,5 @@ https://pan.quark.cn/s/a68121ffd314
 ## Adaptive Transfer Mechanism
 ![Alt](./transfermodelv3.png)
 
-# 📚 Citation
 
-```
-@article{oneforall2025,
-  title={One for All: A Motif-Driven Graph Dual-Serialization Transfer Framework},
-  author={Anonymous Authors},
-  journal={Under Review},
-  year={2025}
-}
-```
 
